@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background:white;
+    padding: 18px 0;
+    border-bottom: 1px solid #272727;
+}
+
+.logo h2{
+    font-weight:normal;
+    font-size: 45px;
+    margin-left: 25%;
+}
+
+.enter {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    color: #41331a;
+    display: flex;
+    align-items: center;
+}
+
+
+/* botões e afins */
+
+section{
+    margin-left: 25%;
+    margin-right: 25%;
+    display:grid;
+    margin-top: 3%;
+}
+
+button {
+    padding: 40px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:0.4s;
+    background: rgb(240, 237, 237);
+    color: black;
+    margin-left:4px;
+}
+button:hover{
+    transition:0.3s;
+    background: #6e562c;
+    color: white;
+}
+#botao1 {
+    background: rgb(240, 237, 237);
+    padding: 40px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:0.4s;
+    background: rgb(240, 237, 237);
+    color: black;
+}
+#botao1:hover{
+    transition:0.3s;
+    background: #41331a;
+    color: white;
+}
+#info{
+    transition: 0.4s;
+    color:black;
+    font-size:30px;
+    font-weight: lighter;
+    padding: 10%;
+}
+#info p{
+    text-align: right;
+}
