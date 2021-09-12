@@ -1,2 +1,2 @@
-# Calculadora-Javascript
-Um dos aprendizados de um curso gratuito no YouTube do canal Curso em Vídeo.
+# Tabuada-Javascript
+Olá, para acessar copie e cole o link em sua URL: https://edumsoares.github.io/Calculadora-Javascript/
