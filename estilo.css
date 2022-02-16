@@ -1,31 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+
+
+
 
 header{
     background:white;
     padding: 18px 0;
     border-bottom: 1px solid #272727;
 }
+.cabecalho{
+  width: 500px;
+}
 
 .logo h2{
-    font-weight:normal;
-    font-size: 45px;
-    margin-left: 25%;
+  font-family: 'Bebas Neue', cursive;
+  font-weight:normal;
+  font-size: 55px;
+  margin-left: 25%;
 }
 
-.enter {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2%;
-    color: #41331a;
-    display: flex;
-    align-items: center;
-}
 
 
 /* botões e afins */
@@ -33,7 +35,6 @@ header{
 section{
     margin-left: 25%;
     margin-right: 25%;
-    display:grid;
     margin-top: 3%;
 }
 
@@ -69,13 +70,40 @@ button:hover{
     background: #41331a;
     color: white;
 }
-#info{
+
+.conteudo_2{
     transition: 0.4s;
     color:black;
     font-size:30px;
     font-weight: lighter;
-    padding: 10%;
+    padding-top: 10%;
 }
-#info p{
+
+.conteudo_2 p{
     text-align: right;
+}
+
+p {
+  transition: 1s;
+}
+@media (max-width: 600px){
+
+  .cabecalho{
+  width: 153px;
+}
+  .logo h2{
+  font-family: 'Bebas Neue', cursive;
+  font-weight:normal;
+  font-size: 33px;
+  margin-left: 0;
+}
+  #botao1 {
+    padding: 3%;
+    font-size:30px;
+}
+  button {
+    padding: 3%;
+    font-size: 30px;
+}
+  
 }

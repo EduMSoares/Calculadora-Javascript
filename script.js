@@ -1,5 +1,5 @@
         var botao = document.getElementById('botao1');
-        var cont = document.querySelector('div#info');
+        var cont = document.querySelector('div.conteudo_2');
         botao.addEventListener('click', mostrarMsg);
             function mostrarMsg(){
                 var input = prompt('insira um numero');
@@ -13,5 +13,5 @@
                     }
             }
         function limparTabuada(){
-            cont.innerHTML = 'Olá mundo!';
+            cont.innerHTML = 'Sua tabuada será mostrada aqui:';
         }
